@@ -1,7 +1,11 @@
-<html># ansible-zabbix-agent<br/>
-################<br/>
-This is a complete ansible playbook for installing zabbix-agent2 on multible server with multiple distributions.
-<b>1st Task:</b>Create Mother Mother directory<br/>
-I creat as "create directory" for copy the deb/rpm to it, this is optional, because my situation was that my servers has no access to internet for download, so that force me to copy it localy.
-<html/>
+# ansible-zabbix-agent
 
+> Introduction: If you are familiar with Ansible and want to Install **zabbix-agent** to multiple servers with different distribution's and os version's. Before starting, I will answer some common questions that you may have:
+>>-  *Why do I download localy zabbix-agent's file and copy it to the server's?*<br/>
+>>The reason is, in my project's ther was not access to the internet in all the server's, so I had to download in my host and copy it localy to the server.
+>>----------------
+>>- What is **custom.conf** file?<br/>
+>>  I had sharped all **zabbix-agent\*.conf** line's, to do all my configuration need to the **zabbix-agent\*.d** as multiple **\*.conf** files.
+>>------------
+--------------
+<h3>It's show time baby
