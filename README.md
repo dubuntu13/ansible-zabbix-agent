@@ -15,5 +15,4 @@
 
 *Now we can make our change to the playbook and what ever we want to change*<br/>
 
-#### EXPLAIN PLAYBOOK
-'''
+
