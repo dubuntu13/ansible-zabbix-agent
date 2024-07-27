@@ -13,13 +13,13 @@ PRCE2_RHEL="https://rpmfind.net/linux/openmandriva/cooker/repository/aarch64/mai
 ##Download all of them if you want ZABBIX
 
 urls=(
-    "ZBX_AGNT_DEB_22"
-    "ZBX_AGNT_DEB_20"
-    "ZBX_AGNT_DEB_18"
-    "ZBX_AGNT_RHEL_6"
-    "ZBX_AGNT_RHEL_7"
-    "ZBX_AGNT_RHEL_9"
-    "PRCE_RHEL"
+    "$ZBX_AGNT_DEB_22"
+    "$ZBX_AGNT_DEB_20"
+    "$ZBX_AGNT_DEB_18"
+    "$ZBX_AGNT_RHEL_6"
+    "$ZBX_AGNT_RHEL_7"
+    "$ZBX_AGNT_RHEL_9"
+    "$PRCE_RHEL"
 )
 
 for url in  "${urls[@]}"; do
