@@ -14,5 +14,6 @@
 2. Copy **playbook_zabbix.yml** file to the same directory as your **role** directory.<br/>
 
 *Now we can make our change to the playbook and what ever we want to change*<br/>
+I put a bash script in new project that you can download the newest version or what ever you need in your project. you can put the link of each version you want into it and download. it will go into the file direcotry. so you should just run bash script.
 
 
